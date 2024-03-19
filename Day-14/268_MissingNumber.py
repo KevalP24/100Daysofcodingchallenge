@@ -8,9 +8,9 @@ class Solution:
 
 
         # approach-2
-        n=len(nums)
-        sum1=n*(n+1)//2
-        sum2=0
-        for i in nums:
-            sum2 += i
-        return sum1-sum2
+        #n=len(nums)
+        #sum1=n*(n+1)//2
+        #sum2=0
+        #for i in nums:
+        #    sum2 += i
+        #return sum1-sum2
