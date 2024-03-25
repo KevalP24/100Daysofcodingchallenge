@@ -11,4 +11,5 @@ class Solution:
             j+=1
         ans.append(word1[i:])
         ans.append(word2[j:])
+        
         return "".join(ans)
