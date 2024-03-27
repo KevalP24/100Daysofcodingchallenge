@@ -13,9 +13,8 @@ class Solution:
   
             while prod >= k:
                 prod /= nums[left]
-                left += 1
-            
+                left += 1            
             count += (right - left) + 1
             right += 1
-        
+
         return count
