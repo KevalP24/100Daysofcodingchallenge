@@ -6,6 +6,7 @@ class Solution:
         j = 0
         ans = 0
         countMax = 0
+        
         while j < n:
             if nums[j] == maxEle:
                 countMax += 1
