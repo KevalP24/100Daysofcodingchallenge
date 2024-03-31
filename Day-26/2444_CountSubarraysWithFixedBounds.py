@@ -4,7 +4,6 @@ class Solution:
         minPosi = -1
         maxPosi = -1
         outBound = -1
-        
         for i in range(len(nums)):
             
             if nums[i] < minK or nums[i] > maxK:
