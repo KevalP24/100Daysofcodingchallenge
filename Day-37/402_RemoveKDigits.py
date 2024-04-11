@@ -2,7 +2,6 @@ class Solution:
     def removeKdigits(self, num: str, k: int) -> str:
         ans = []  
         n = len(num)
-        
         for i in range(n):
             while ans and ans[-1] > num[i] and k > 0:
                 ans.pop()
