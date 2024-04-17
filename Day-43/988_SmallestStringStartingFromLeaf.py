@@ -7,7 +7,6 @@
 class Solution:
     def __init__(self):
         self.result = ""
-    
     def solve(self, root, curr):
         if not root:
             return
