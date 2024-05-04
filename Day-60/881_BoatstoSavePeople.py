@@ -2,7 +2,6 @@ class Solution:
     def numRescueBoats(self, people: List[int], limit: int) -> int:
         n = len(people)
         people.sort()  
-
         i =0
         j = n-1
         boats = 0
