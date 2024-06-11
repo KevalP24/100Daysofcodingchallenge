@@ -10,7 +10,7 @@ class Solution:
         def custom_sort(num1, num2):
             if mp[num1] == mp[num2]:
                 return num1 - num2
-            return mp[num1] - mp[num2]
+            return mp[num1] -mp[num2]
 
         arr1.sort(key=lambda x: (mp[x], x))
 
